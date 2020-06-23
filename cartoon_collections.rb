@@ -14,6 +14,10 @@ def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
   new_array = []
+  index = 0 
+  
+  while index < planeteer_calls.length do 
+    new_array <<
 end
 
 def long_planeteer_calls(planeteer_calls)
