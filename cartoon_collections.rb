@@ -13,11 +13,11 @@ end
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
-  new_array = []
+  summon_captain_planet= []
   index = 0 
   
   while index < planeteer_calls.length do 
-    new_array << planeteer_calls.capitalize
+    summon_captain_planet << planeteer_calls.capitalize + "!"
     index += 1 
   end 
   summon_captain_planet
