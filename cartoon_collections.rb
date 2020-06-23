@@ -17,7 +17,10 @@ def summon_captain_planet(planeteer_calls)
   index = 0 
   
   while index < planeteer_calls.length do 
-    new_array <<
+    new_array << planeteer_calls.capitalize
+    index += 1 
+  end 
+  summon_captain_planet
 end
 
 def long_planeteer_calls(planeteer_calls)
