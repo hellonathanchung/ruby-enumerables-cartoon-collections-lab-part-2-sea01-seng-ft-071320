@@ -6,7 +6,7 @@ def square_array(array)
   while index < array.length do
     new_array << array[index] * array[index]
     index += 1
-  }
+  end
 end
 
 def summon_captain_planet(planeteer_calls)
